@@ -16,7 +16,7 @@ Role Variables
 
 `tomcat_java_home` The path to your java installation. This variable is required in the systemd service file.
 
-
+```yaml
 # Directory to store files downloaded for Java installation on the remote box
 tomcat_download_dir: "{{ x_ansible_download_dir | default(ansible_env.HOME + '/.ansible/tmp/downloads') }}"
 
@@ -30,13 +30,15 @@ tomcat_use_local_archive: true
 
 # File name for the Tomcat redistributable installation file
 tomcat_redis_filename: apache-tomcat-9.0.34.tar.gz
+```
 
 To use local files, add the tomcat tgz into ./files/
 And add these variables 
+```yaml
 tomcat_archive_name: "apache-tomcat-9.0.34"
 tomcat_use_local_archive: true
 tomcat_redis_filename: apache-tomcat-9.0.34.tar.gz
-
+```
 
 Dependencies
 ------------
