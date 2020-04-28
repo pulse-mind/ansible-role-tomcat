@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: tomcat
   author: Pulse-Mind
   description: Install Tomcat on Ubuntu >= 16.04 with systemd
 
