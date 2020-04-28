@@ -1,7 +1,7 @@
-Ansible Role flxpeters.tomcat8
+Ansible Role pulse-mind.tomcat
 =========
 
-[![Build Status](https://travis-ci.org/FlxPeters/ansible-role-tomcat8.svg?branch=master)](https://travis-ci.org/FlxPeters/ansible-role-tomcat8)
+[![Build Status](https://travis-ci.org/pulse-mind/ansible-role-tomcat.svg?branch=master)](https://travis-ci.org/pulse-mind/ansible-role-tomcat)
 
 Install Tomcat 8 or 9 on Ubuntu >= 16.04, Debian, CentOS,   from archive with systemd
 
