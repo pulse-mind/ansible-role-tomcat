@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: tomcat
-  author: Pulse-Mind
+  author: pulse-mind
   description: Install Tomcat on Ubuntu >= 16.04 with systemd
 
   license: MIT / BSD
